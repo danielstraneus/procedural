@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-family: "Source Code Pro", monospace;
+  color: rgb(49, 49, 49);
+}
+
+canvas {
+  position: absolute;
+  z-index: -2;
+  opacity: 0.8;
+  filter: blur(0.4px);
+}
+
+h1 {
+  cursor: default;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 10px 0px 0px 20px;
+  text-transform: uppercase;
+  animation-delay: 1s;
+  --animate-duration: 2s;
+}
+h2 {
+  cursor: default;
+  background-color: yellow;
+  font-size: 1rem;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.hide {
+  color: #f45b69;
+  padding-left: 20px;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 1s ease-out, padding-left 1s linear;
+}
+
+.hyperlink:hover + .hide {
+  color: #f45b69;
+  opacity: 1;
+  padding-left: 25px;
+}
+
+.hyperlink {
+  padding-left: 10px;
+  transition: padding-left 1s linear, color 1s ease-in-out;
+}
+
+.hyperlink:hover {
+  color: blue;
+  padding-left: 9px;
+}
+
+a {
+  color: blue;
+  font-size: 0.7rem;
+}
+section {
+  padding: 0px 0px 10px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  a {
+    color: lightgray;
+  }
+
+  display: flex;
+
+  flex-direction: row;
+  justify-content: start;
+
+  position: fixed;
+  margin-top: 80px;
+
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+}
+
+p {
+  display: block;
+  cursor: default;
+  font-size: 0.7rem;
+  margin: 0px;
+  padding: 10px 0px 40px 20px;
+  width: 400px;
+  animation-delay: 1s;
+  --animate-duration: 2s;
+}
+
+h1::selection,
+h3::selection,
+p::selection,
+a::selection,
+h2::selection,
+div::selection {
+  background-color: yellow;
+}
+
+i {
+  font-size: 1rem;
+  padding-right: 30px;
+  transition: color ease-in-out 0.5s;
+}
+
+i:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+#link1 {
+  animation-delay: 1s;
+}
+
+#link2 {
+  animation-delay: 1.2s;
+}
+
+#link3 {
+  animation-delay: 1.4s;
+}
+
+#link4 {
+  animation-delay: 1.6s;
+}
+
+#link5 {
+  animation-delay: 1.8s;
+}
+
+#link6 {
+  animation-delay: 2s;
+}
+
+#link7 {
+  animation-delay: 2.2s;
+}
+
+#link8 {
+  animation-delay: 2.4s;
+}

@@ -1,0 +1,184 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-family: "Source Code Pro", monospace;
+  color: #313131;
+}
+
+canvas {
+  position: absolute;
+  z-index: -2;
+  opacity: 0.8;
+  -webkit-filter: blur(0.4px);
+          filter: blur(0.4px);
+}
+
+h1 {
+  cursor: default;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 10px 0px 0px 20px;
+  text-transform: uppercase;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  --animate-duration: 2s;
+}
+
+h2 {
+  cursor: default;
+  background-color: yellow;
+  font-size: 1rem;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.hide {
+  color: #f45b69;
+  padding-left: 20px;
+  font-size: 0.8rem;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-out, padding-left 1s linear;
+  transition: opacity 1s ease-out, padding-left 1s linear;
+}
+
+.hyperlink:hover + .hide {
+  color: #f45b69;
+  opacity: 1;
+  padding-left: 25px;
+}
+
+.hyperlink {
+  padding-left: 10px;
+  -webkit-transition: padding-left 1s linear, color 1s ease-in-out;
+  transition: padding-left 1s linear, color 1s ease-in-out;
+}
+
+.hyperlink:hover {
+  color: blue;
+  padding-left: 9px;
+}
+
+a {
+  color: blue;
+  font-size: 0.7rem;
+}
+
+section {
+  padding: 0px 0px 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  position: fixed;
+  margin-top: 80px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+}
+
+.social a {
+  color: lightgray;
+}
+
+p {
+  display: block;
+  cursor: default;
+  font-size: 0.7rem;
+  margin: 0px;
+  padding: 10px 0px 40px 20px;
+  width: 400px;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  --animate-duration: 2s;
+}
+
+h1::-moz-selection,
+h3::-moz-selection,
+p::-moz-selection,
+a::-moz-selection,
+h2::-moz-selection,
+div::-moz-selection {
+  background-color: yellow;
+}
+
+h1::selection,
+h3::selection,
+p::selection,
+a::selection,
+h2::selection,
+div::selection {
+  background-color: yellow;
+}
+
+i {
+  font-size: 1rem;
+  padding-right: 30px;
+  -webkit-transition: color ease-in-out 0.5s;
+  transition: color ease-in-out 0.5s;
+}
+
+i:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+#link1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#link2 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+#link3 {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+#link4 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+#link5 {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+#link6 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#link7 {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+#link8 {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+/*# sourceMappingURL=main.css.map */
